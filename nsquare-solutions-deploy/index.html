@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N² Solutions - Innovate. Automate. Elevate.</title>
+    <meta name="description" content="We help enterprises accelerate growth through AI strategy, automation, custom AI products, and intelligent customer experiences.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=2.0">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+            </button>
+
+            <!-- Brand Logo (Updated to N² Solutions Logo) -->
+            <a href="#" class="logo">
+                <svg class="logo-svg" viewBox="0 0 100 100" width="38" height="38" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#3b82f6" />
+                            <stop offset="100%" stop-color="#06b6d4" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M 72 24 A 34 34 0 1 0 82 58" fill="none" stroke="url(#logoGlow)" stroke-width="6" stroke-linecap="round" />
+                    <text x="49%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="34" fill="#ffffff">N</text>
+                    <text x="76" y="28" font-family="'Outfit', sans-serif" font-weight="700" font-size="26" fill="#3b82f6">2</text>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-title"><span class="logo-n2">N²</span> SOLUTIONS</span>
+                    <span class="logo-subtitle">INNOVATE. AUTOMATE. ELEVATE.</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <div class="nav-dropdown">
+                    <a href="#services" class="nav-link dropdown-trigger">
+                        Services 
+                        <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#services">Strategy & Consulting</a>
+                        <a href="#services">Chatbot Development</a>
+                        <a href="#services">Custom AI SaaS</a>
+                        <a href="#services">CRM Solutions</a>
+                        <a href="#services">Retail AI</a>
+                        <a href="#services">Generative AI</a>
+                    </div>
+                </div>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <button class="btn btn-cta get-in-touch-btn" id="openCtaModal">Get In Touch</button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay">
+        <div class="mobile-nav-content">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <a href="#contact" class="mobile-nav-link">Contact Us</a>
+            <button class="btn btn-primary mobile-cta-btn get-in-touch-btn">Get In Touch</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content" id="home">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <!-- Hero Left Column: Copy & Actions -->
+                <div class="hero-left-col">
+
+                    <h1 class="hero-title">
+                        Transforming <br>Businesses with <br><span class="gradient-text">Artificial Intelligence</span>
+                    </h1>
+                    
+                    <p class="hero-desc">
+                        We help enterprises accelerate growth through AI strategy, automation, custom AI products, and intelligent customer experiences.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <button class="btn btn-primary get-started-btn">
+                            Get Started 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </button>
+                        <button class="btn btn-outline book-consultation-btn">Book a Consultation</button>
+                    </div>
+                </div>
+
+                <!-- Hero Right Column: Glowing AI Core Visualizer -->
+                <div class="hero-right-col">
+                    <div class="brain-wrapper">
+                        <div class="brain-glow-base"></div>
+                        <div class="hud-ring ring-orbit-1"></div>
+                        <div class="hud-ring ring-orbit-2"></div>
+                        <div class="brain-pedestal">
+                            <div class="pedestal-ring ring-1"></div>
+                            <div class="pedestal-ring ring-2"></div>
+                            <div class="pedestal-ring ring-3"></div>
+                        </div>
+                        <img src="assets/holographic_ai_core.png" alt="AI Neural Network Core Visualizer" class="brain-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Feature Cards Grid -->
+            <div class="hero-features-grid-container">
+                <div class="hero-features-grid">
+                    <!-- Card 1 -->
+                    <div class="hero-feature-card book-consultation-btn">
+                        <div class="feature-card-icon cyan-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                        </div>
+                        <h4 class="feature-card-title">AI Strategy & Consulting</h4>
+                        <p class="feature-card-desc">Crafting data-driven strategies that unlock AI potential and drive business growth.</p>
+                        <span class="feature-card-arrow">→</span>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="hero-feature-card book-consultation-btn">
+                        <div class="feature-card-icon indigo-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        <h4 class="feature-card-title">Custom AI Development</h4>
+                        <p class="feature-card-desc">Building intelligent, scalable AI solutions tailored to your unique business needs.</p>
+                        <span class="feature-card-arrow">→</span>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="hero-feature-card book-consultation-btn">
+                        <div class="feature-card-icon emerald-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                        </div>
+                        <h4 class="feature-card-title">Secure & Scalable Solutions</h4>
+                        <p class="feature-card-desc">Enterprise-grade security and scalable architecture you can trust.</p>
+                        <span class="feature-card-arrow">→</span>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="hero-feature-card book-consultation-btn">
+                        <div class="feature-card-icon purple-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
+                        </div>
+                        <h4 class="feature-card-title">End-to-End Support</h4>
+                        <p class="feature-card-desc">From ideation to deployment and beyond — we're with you every step of the way.</p>
+                        <span class="feature-card-arrow">→</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section (New) -->
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-grid">
+                    <!-- Left: About Text -->
+                    <div class="about-left">
+                        <span class="section-label">ABOUT US</span>
+                        <h2 class="section-title">We Build Intelligent Futures</h2>
+                        <p class="about-desc">
+                            At N² Solutions, we bridge the gap between complex artificial intelligence research and practical, high-impact business applications. We partner with forward-thinking enterprises to deliver custom AI systems that automate operations, enhance customer engagement, and unlock value.
+                        </p>
+                        <div class="about-bullets">
+                            <div class="bullet-item">
+                                <div class="bullet-icon-box purple-glow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                                </div>
+                                <div class="bullet-content">
+                                    <h4 class="bullet-title">Production-Grade AI</h4>
+                                    <p class="bullet-text">We don't just build prototypes. We deploy robust, secure, and highly scalable AI products that handle real-world traffic.</p>
+                                </div>
+                            </div>
+                            <div class="bullet-item">
+                                <div class="bullet-icon-box blue-glow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                </div>
+                                <div class="bullet-content">
+                                    <h4 class="bullet-title">Security & Privacy First</h4>
+                                    <p class="bullet-text">Your data is your competitive edge. We build private data pipelines and secure integrations protecting your proprietary knowledge.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: Pillar metrics card -->
+                    <div class="about-right">
+                        <div class="about-card">
+                            <div class="about-card-glow"></div>
+                            <h3 class="about-card-title">Our Core Pillars</h3>
+                            <div class="pillar-row">
+                                <span class="pillar-label">INNOVATE</span>
+                                <div class="pillar-bar"><div class="pillar-progress" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="pillar-row">
+                                <span class="pillar-label">AUTOMATE</span>
+                                <div class="pillar-bar"><div class="pillar-progress" style="width: 95%;"></div></div>
+                            </div>
+                            <div class="pillar-row">
+                                <span class="pillar-label">ELEVATE</span>
+                                <div class="pillar-bar"><div class="pillar-progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="about-stats-box">
+
+                                <div class="about-stat">
+                                    <span class="about-stat-num">24/7</span>
+                                    <span class="about-stat-lbl">Monitoring</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <div class="services-container">
+                <div class="section-header">
+                    <span class="section-label">OUR SERVICES</span>
+                    <h2 class="section-title">AI Solutions Tailored for Your Business</h2>
+                    <p class="section-desc">Comprehensive AI services to transform, automate, and scale your business.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Card 1 -->
+                    <div class="service-card">
+                        <div class="service-card-glow"></div>
+                        <div class="service-icon-box blue-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        </div>
+                        <h3 class="service-title">AI Strategy & Digital Transformation</h3>
+                        <p class="service-text">Align AI initiatives with business goals and drive digital transformation.</p>
+                        <a href="#contact" class="service-link book-consultation-btn">Learn More 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="service-card">
+                        <div class="service-card-glow"></div>
+                        <div class="service-icon-box purple-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M12 2m2 0a2 2 0 0 1 2 2v5H8V4a2 2 0 0 1 2-2z"></path><path d="M12 18m2 0a2 2 0 0 1 2 2v1H8v-1a2 2 0 0 1 2-2z"></path><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle></svg>
+                        </div>
+                        <h3 class="service-title">AI Chatbot & Virtual Assistant Development</h3>
+                        <p class="service-text">Intelligent conversational solutions that engage and assist your customers.</p>
+                        <a href="#chatbot" class="service-link try-chatbot-btn">Learn More 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="service-card">
+                        <div class="service-card-glow"></div>
+                        <div class="service-icon-box blue-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        </div>
+                        <h3 class="service-title">Custom AI SaaS Development</h3>
+                        <p class="service-text">Build scalable, secure, and intelligent SaaS products tailored to your needs.</p>
+                        <a href="#contact" class="service-link book-consultation-btn">Learn More 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="service-card">
+                        <div class="service-card-glow"></div>
+                        <div class="service-icon-box purple-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <h3 class="service-title">CRM & Customer Intelligence Solutions</h3>
+                        <p class="service-text">Understand your customers better and boost retention with AI.</p>
+                        <a href="#contact" class="service-link book-consultation-btn">Learn More 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="service-card">
+                        <div class="service-card-glow"></div>
+                        <div class="service-icon-box blue-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        </div>
+                        <h3 class="service-title">Retail & E-Commerce AI Solutions</h3>
+                        <p class="service-text">Enhance shopping experiences and maximize revenue with AI.</p>
+                        <a href="#contact" class="service-link book-consultation-btn">Learn More 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="service-card">
+                        <div class="service-card-glow"></div>
+                        <div class="service-icon-box purple-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <h3 class="service-title">Generative AI Solutions</h3>
+                        <p class="service-text">Leverage the power of Generative AI to create, automate and innovate.</p>
+                        <a href="#contact" class="service-link book-consultation-btn">Learn More 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <div class="section-header">
+                    <span class="section-label">CONTACT US</span>
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-desc">Have questions or want to kickstart an AI project? Send us a message, and our team will get back to you shortly.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Info Column -->
+                    <div class="contact-info-col">
+                        <div class="info-card">
+                            <h3 class="info-card-title">Contact Information</h3>
+                            <p class="info-card-desc">Reach out directly or visit our office. We are always ready to discuss innovative AI solutions.</p>
+                            
+                            <div class="info-details">
+                                <div class="info-detail-item">
+                                    <div class="info-icon blue-glow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                    </div>
+                                    <div class="info-text">
+                                        <span class="info-label">Email Us</span>
+                                        <a href="mailto:nsquaresolutions27@gmail.com" class="info-value">nsquaresolutions27@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="info-detail-item">
+                                    <div class="info-icon purple-glow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    </div>
+                                    <div class="info-text">
+                                        <span class="info-label">Call Us</span>
+                                        <a href="tel:+917338538878" class="info-value">+91 7338538878</a>
+                                    </div>
+                                </div>
+                                <div class="info-detail-item">
+                                    <div class="info-icon blue-glow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <div class="info-text">
+                                        <span class="info-label">Office Location</span>
+                                        <span class="info-value">5-5-10/12, near raos high school, Sangeet Nagar, Kukatpally, Hyderabad, Telangana 500072</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Styled glowing abstract map placeholder -->
+                            <div class="mock-map">
+                                <div class="map-glow-point"></div>
+                                <div class="map-radar"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Column -->
+                    <div class="contact-form-col">
+                        <form class="contact-form" id="contactUsForm">
+                            <!-- Web3Forms Access Key Hidden Input -->
+                            <input type="hidden" name="access_key" id="contactAccessKey" value="">
+                            <input type="checkbox" name="botcheck" style="display: none;">
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactName" class="form-label">Name</label>
+                                    <input type="text" name="name" id="contactName" class="form-input" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactEmail" class="form-label">Email Address</label>
+                                    <input type="email" name="email" id="contactEmail" class="form-input" placeholder="you@company.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactPhone" class="form-label">Phone Number</label>
+                                    <input type="tel" name="phone" id="contactPhone" class="form-input" placeholder="+91 12345 67890">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactSubject" class="form-label">Subject</label>
+                                    <input type="text" name="subject" id="contactSubject" class="form-input" placeholder="What are you reaching out about?" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactMessage" class="form-label">Message</label>
+                                <textarea name="message" id="contactMessage" class="form-input text-area" placeholder="Write your message here..." rows="6" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary form-submit-btn" id="contactSubmitBtn">
+                                Send Message
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+
+                        <!-- Success Alert Message -->
+                        <div class="contact-success-state" id="contactSuccessState" style="display: none;">
+                            <div class="success-icon-wrapper">
+                                <svg class="success-checkmark" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <h4 class="success-title">Message Sent!</h4>
+                            <p class="success-msg">Thank you for contacting N² Solutions. Your query has been delivered straight to our team's inbox.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Consultation Modal -->
+    <div class="modal" id="ctaModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-wrapper">
+            <button class="modal-close" id="closeCtaModal" aria-label="Close Modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <div class="modal-content">
+                <h3 class="modal-title" id="modalTitle">Book a Consultation</h3>
+                <p class="modal-desc" id="modalDesc">Fill out the form below, and our AI consultants will get in touch with you shortly.</p>
+                
+                <form class="modal-form" id="consultationForm">
+                    <!-- Web3Forms Access Key Hidden Input -->
+                    <input type="hidden" name="access_key" id="bookingAccessKey" value="">
+                    <input type="checkbox" name="botcheck" style="display: none;">
+                    
+                    <div class="form-group">
+                        <label for="formName" class="form-label">Name</label>
+                        <input type="text" name="name" id="formName" class="form-input" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="formEmail" class="form-label">Email</label>
+                        <input type="email" name="email" id="formEmail" class="form-input" placeholder="you@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="formService" class="form-label">Interested Service</label>
+                        <select name="service" id="formService" class="form-input">
+                            <option value="strategy">AI Strategy & Transformation</option>
+                            <option value="chatbot">AI Chatbot & Virtual Assistants</option>
+                            <option value="saas">Custom AI SaaS Development</option>
+                            <option value="crm">CRM & Customer Intelligence</option>
+                            <option value="retail">Retail & E-Commerce AI</option>
+                            <option value="generative">Generative AI Solutions</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="formMessage" class="form-label">Project Details</label>
+                        <textarea name="message" id="formMessage" class="form-input text-area" placeholder="Tell us briefly about your goals..." rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit-btn">
+                        Submit Request
+                    </button>
+                </form>
+
+                <!-- Success State (Hidden by default) -->
+                <div class="form-success-state" id="formSuccessState">
+                    <div class="success-icon-wrapper">
+                        <svg class="success-checkmark" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <h4 class="success-title">Request Submitted!</h4>
+                    <p class="success-msg">Thank you. We have received your request and will reach out to you within 24 hours.</p>
+                    <button class="btn btn-outline" id="closeSuccessBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 N² Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
